@@ -1,0 +1,231 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+    /* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nav > li > a {
+        padding: 10px;
+    }
+    .welcome-text h1 {
+        font-size: 33px;
+    }
+    .section-padding {
+        padding: 35px 0;
+    }
+    .testimonial-area.section-padding {
+        padding: 30px 0 60px;
+    }
+    .banner-area {
+        height: 600px;
+    }
+    .welcome-text {
+        padding-top: 190px;
+    }
+    .about-left h4 {
+        font-size: 19px;
+    }
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .section-padding {
+        padding: 30px 0;
+    }
+    .section-header {
+        margin-bottom: 60px;
+    }
+    .navbar-custom {
+        background: transparent;
+        border-bottom:none;
+    }
+    .navbar-custom.navbar-fixed-top.top-nav-collapse {
+        background: #333333;
+    }
+    .navbar-toggle {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-custom .navbar-brand {
+        padding-top: 20px;
+    }
+    .welcome-text {
+        padding-top: 70px;
+    }
+    .welcome-text .name-area {
+        font-size: 17px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+    .welcome-text h1 {
+        font-size: 20px;
+        line-height: 35px;
+        width: 70%;
+        margin:auto;
+    }
+    .welcome-text a {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .about-left h4 {
+        font-size: 16px;
+        line-height: 34px;
+        margin: 20px 0 30px;
+    }
+    .single-service {
+        text-align: center;
+    }
+    .testimonial-area.section-padding {
+        padding: 30px 0 60px;
+    }
+    #testimonial-carousel .item p {
+        width: 90%;
+    }
+    .single-invite h2 {
+        font-size: 18px;
+        line-height: 34px;
+    }
+    .single-invite p {
+        width: 90%;
+    }
+    .navbar-nav li {
+        margin: 5px 50px;
+        float: left;
+        display: inherit;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav > li > a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 15px;
+    }
+    .navbar-nav {
+        float: right;
+        margin: 11px 21px;
+        margin-right: 32%;
+        display: inherit;
+        width: 200px;
+        background-color: transparent;
+    }
+    .navbar-fixed-top .navbar-collapse {
+        height: 740px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+
+    .sticky_navigation .nav li a {
+        color: #ffffff;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+    .section-padding {
+        padding: 30px 0;
+    }
+    .section-header {
+        margin-bottom: 60px;
+    }
+    .navbar-custom {
+        background: transparent;
+        border-bottom:none;
+    }
+    .navbar-custom.navbar-fixed-top.top-nav-collapse {
+        background: #333333;
+    }
+    .navbar-toggle {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-custom .navbar-brand {
+        padding-top: 20px;
+    }
+    .welcome-text {
+        padding-top: 60px;
+    }
+    .welcome-text .name-area {
+        font-size: 17px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+    .welcome-text h1 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .welcome-text a {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .about-left h4 {
+        font-size: 16px;
+        line-height: 34px;
+        margin: 20px 0 30px;
+    }
+    .single-service {
+        text-align: center;
+    }
+    .testimonial-area.section-padding {
+        padding: 30px 0 60px;
+    }
+    #testimonial-carousel .item p {
+        width: 90%;
+    }
+    .single-invite h2 {
+        font-size: 18px;
+        line-height: 34px;
+    }
+    .single-invite p {
+        width: 90%;
+    }
+    .navbar-nav li {
+        margin: 5px 50px;
+        float: left;
+        display: inherit;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav > li > a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 15px;
+    }
+    .navbar-nav {
+        float: right;
+        margin: 11px 21px;
+        margin-right: 38%;
+        display: inherit;
+        width: 200px;
+        background-color: transparent;
+    }
+    .navbar-fixed-top .navbar-collapse {
+        height: 740px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+
+    .sticky_navigation .nav li a {
+        color: #ffffff;
+    }
+
+}
+
+
+@media screen and (min-width: 600px)and (max-width: 767px){
+
+    .welcome-text {
+        padding-top: 100px;
+    }
+
+}
+
+
